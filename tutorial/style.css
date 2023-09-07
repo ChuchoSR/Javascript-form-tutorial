@@ -1,0 +1,100 @@
+body {
+    background-color: #E4DCCF;
+    font-family: monospace;
+    display: grid;
+    place-content: center;
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #002B5B;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 20px;
+}
+
+.inputText {
+    height: 25px;
+    border-radius: 5px;
+    width: 200px;
+    /* margin-left: 10px; */
+}
+
+#bday {
+    height: 25px;
+    border-radius: 5px;
+    width: 100px;
+    /* margin-left: 10px; */
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.radio-option input[type="radio"] {
+    margin: 0;
+}
+
+#picture {
+    /* margin-left: 10px; */
+    border-radius: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+#sentForm {
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 15px;
+    height: 50px;
+    background-color: #EA5455;
+
+}
+
+.infoContainer {
+    background-color: #002B5B;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+    justify-content: center;
+}
+
+.infoContainer img {
+    width: 182px;
+    border-radius: 50%;
+    margin-top: 60px;
+    left: 100px;
+    position: relative;
+} 
+
+p {
+    font-size: 20px;
+}
+
+.viewInfo {
+    margin-left: 20px;
+}

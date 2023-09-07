@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tutorial Javascript</title>
+</head>
+<body>
+    <section class="card" id="firstCard">
+            <h1>Mi formulario con Javascript</h1>
+                <form id="formulario">
+                    <label for="nameLabel">Nombre</label>
+                    <input type="text" class="inputText" id="nameInput" placeholder="Escribe tu nombre">
+                    <label for="lastnameLabel">Apellido</label>
+                    <input type="text" class="inputText" id="lastnameInput" placeholder="Escribe tu apellido">
+                    <label for="sexo">Sexo:</label>
+                        <div class="radio-option">
+                            <input type="radio" name="genero" value="1" id="masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="genero" value="2" id="femenino">
+                            <label for="femenino">Femenino</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" name="genero" value="3" id="noEspecifica">
+                            <label for="noEspecifica">No especifica</label>
+                        </div>
+                    <label for="date">Fecha de nacimiento</label>
+                    <input type="date" name="bday" id="bday" title="bday">
+                    <label for="photo">Sube tu foto!😎</label>
+                    <input type="file" name="photo" id="picture" title="archivo">
+                    <div class="button">
+                        <button type="button" id="sentForm" onclick="">Guardar informacion</button>
+                    </div>
+                </form>
+    </section>
+    
+    <div id="information" class="infoContainer"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
